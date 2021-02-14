@@ -1,0 +1,19 @@
+@import "~bootstrap/scss/bootstrap";
+@import "./auth.scss";
+
+$background: #222226;
+
+body {
+  color: white !important;
+}
+
+.-disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.container-wrapper {
+  background-color: $background;
+  width: 100%;
+  height: 100vh !important;
+}
